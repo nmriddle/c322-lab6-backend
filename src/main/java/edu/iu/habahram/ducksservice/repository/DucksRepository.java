@@ -18,7 +18,7 @@ import java.util.List;
 @Component
 public class DucksRepository {
     public DucksRepository() {
-        System.out.println();
+        System.out.println("kill me");
         File ducksImagesDirectory = new File("ducks/images");
         if(!ducksImagesDirectory.exists()) {
             ducksImagesDirectory.mkdirs();
